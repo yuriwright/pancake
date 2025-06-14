@@ -14,7 +14,7 @@ body {
 }
 
 fieldset {
-    border: 3px solid salmon;
+    border: 1px solid silver;
     padding: 10px;
     margin: 0;
 }
@@ -62,18 +62,13 @@ input::-webkit-inner-spin-button {
 }
 
 legend {
-    color: salmon;
+    color: gray;
     font-family: "Courier New";
     font-size: 25px;
     font-style: italic;
-    font-weight: bold;
 }
 
 p {
     font-family: "Courier New";
-    font-size: 20px;
-    
+    font-size: 20px; 
 }
-
-
-
