@@ -14,64 +14,73 @@
 
 <!-- header -->
 <header>
-        <h1>the holy pancake</h1>
+    <h1>the holy pancake</h1>
 </header>
 <!-- +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+--->
 <!-- +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+--->
 
+
+<!-- sidebar -->
+<!-- form 1 -->
 <!-- form 1 for submitting data from workday -->
-    <form name="form1" id="form1"> 
-        <fieldset name="form1">
-            <legend>Day info:</legend>
+<!-- form 1  -->
+<div class = "sidebar">
+<form name="form1" id="form1"> 
+    <legend>Day info:</legend>
 
-            <!-- +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+--->
-            <!-- date -->
-                <p>
-                <label for="workDate">Date of:</label>
-                <input type="date" id="workDate" name="workDate" min="2023-12-12" max="2029-07-07" required /><br>
-                </p>
+    <!-- +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+--->
+    <!-- date -->
+        <p>
+        <label for="workDate">Date of:</label>
+        <input type="date" id="workDate" name="workDate" min="2023-12-12" max="2029-07-07" required /><br>
+        </p><br><br>
 
-            <!-- +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+--->
-            <!-- role: opener? left early? -->
-                <p>
-                Did you:
-            
-                <input type="checkbox" name="opener" id="role1">
-                <label for="role1"><i>Open</i></label>
+    <!-- +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+--->
+    <!-- role: opener? left early? -->
+        <p>
+        Did you:
+        <br><br>
+        <input type="checkbox" name="opener" id="role1" class="role">
+        <label for="role1"><i>Open</i></label>
+        <br><br>
+        <input type="checkbox" name="leftEarly" id="role2" class="role">
+        <label for="role2"><i>Leave early</i></label><br>
+        <br><br><br>
+    <!-- +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+--->
+    <!-- amount of tables per each hour -->
+    <p>How many tables at:<br>
+    <label for="7tables"><p>7am:</label>
+    <input type="number" name="7am" id="7tables">
 
-                <input type="checkbox" name="leftEarly" id="role2">
-                <label for="role2"><i>Leave early</i></label><br>
+    <label for="8tables">8am:</label>
+    <input type="number" name="8am" id="8tables">
+    <br><br>
+    <label for="9tables">9am:</label>
+    <input type="number" name="9am" id="9tables">
 
-            <!-- +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+--->
-            <!-- amount of tables per each hour -->
-            <p>How many tables at:<br>
-            <label for="7tables"><p>7am:</label>
-            <input type="number" name="7am" id="7tables">
+    <label for="10tables">10am:</label>
+    <input type="number" name="10am"  id="10tables">
+    <br><br>
+    <label for="11tables"><p>11am:</label>
+    <input type="number" name="11am"  id="11tables">
 
-            <label for="8tables">8am:</label>
-            <input type="number" name="8am" id="8tables">
+    <label for="12tables">12pm:</label>
+    <input type="number" name="12pm" id="12tables">
+    <br><br>
+    <label for="1tables">1pm:</label>
+    <input type="number" name="1pm"  id="1tables">
+    <br><br>
+    <!-- +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+--->
+    <!-- submit -->
+        <br><br>
+    <button type="submit" value="submit"><i>submit</i></button>
+</div>
+</form>
+<!-- +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+--->
+<!-- +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+--->
 
-            <label for="9tables">9am:</label>
-            <input type="number" name="9am" id="9tables">
 
-            <label for="10tables">10am:</label>
-            <input type="number" name="10am"  id="10tables">
 
-            <label for="11tables"><p>11am:</label>
-            <input type="number" name="11am"  id="11tables">
-
-            <label for="12tables">12pm:</label>
-            <input type="number" name="12pm" id="12tables">
-
-            <label for="1tables">1pm:</label>
-            <input type="number" name="1pm"  id="1tables">
-
-            <!-- +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+--->
-            <!-- submit -->
-            <button type="submit" value="submit" style="background-color:silver; border: ridge; border-color: salmon; font-family:Courier New; font-size: 20px; height:50px; width:100px"><i>submit</i></button>
-
-        </fieldset>
-    </form>
 </body>
 
 </html>
